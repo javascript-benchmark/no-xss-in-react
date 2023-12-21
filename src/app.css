@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-title {
+  font-size: 3rem;
+}
+
+.App-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.App-info {
+  max-width: 60rem;
+  font-size: 1.15rem;
+}
+
+.Warning {
+  color: red;
+}
+
+.Vulnerabilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.Vulnerability {
+  padding-top: 4rem;
+  font-size: 1.15rem;
+  max-width: 60rem;
+  width: 100%;
+}
+
+.Vulnerability h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.GithubLink {
+  color: #61dafb;
+}
+
+.App-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+  font-size: 1.15rem;
+}
+
+.App-footer a {
+  color: red;
+  padding-left: .25rem;
+}
